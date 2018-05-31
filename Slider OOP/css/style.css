@@ -3,18 +3,18 @@ body {
     padding: 0;
 }
 
-#gallery {
+.gallery {
     width: 800px;
     margin: 0 auto;
     text-align: center;
 }
 
-#gallery .photos {
+.gallery .photos {
     position: relative;
     height: 600px;
 }
 
-#gallery .photos img {
+.gallery .photos img {
     width: 100%;
     /*display: none;*/
     position: absolute;
@@ -23,7 +23,7 @@ body {
     transition: opacity 2s;
 }
 
-#gallery .photos img.showed {
+.gallery .photos img.showed {
     opacity: 1;
 }
 
