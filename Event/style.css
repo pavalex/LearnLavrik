@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    margin: 40px;
+}
+
+.menu a {
+    margin-right: 15px;
+}
+
+.gallery img {
+    width: 400px;
+    margin-left: 40px;
+}
