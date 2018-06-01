@@ -14,13 +14,17 @@ window.onload = function () {
     var images2 = document.querySelectorAll('.gallery-2 .photos img');
     var slider2 = new Slider(images2);
 
-    document.querySelector('.gallery-2 .buttons .prev').onclick = function () {
+    setInterval(function () {
+        slider2.next();
+    }, 2000);
+
+    /*document.querySelector('.gallery-2 .buttons .prev').onclick = function () {
         slider2.prev();
     };
 
     document.querySelector('.gallery-2 .buttons .next').onclick = function () {
         slider2.next();
-    };
+    };*/
 
     /*Класс Slider*/
     function Slider(images) {
