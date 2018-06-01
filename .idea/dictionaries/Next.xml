@@ -4,6 +4,7 @@
       <w>mult</w>
       <w>oninput</w>
       <w>onload</w>
+      <w>onsubmit</w>
     </words>
   </dictionary>
 </component>
